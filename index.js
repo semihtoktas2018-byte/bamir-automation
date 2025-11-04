@@ -156,4 +156,4 @@ app.post ("/api/envanter/toplu" , async (istek, çözüm) => {
   } yakala (e) { başarısız(res, e); }
 });
 
-varsayılan uygulamayı dışa aktar;
+export default app;
