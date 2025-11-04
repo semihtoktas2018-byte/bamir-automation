@@ -163,3 +163,10 @@ app.get("/api/health", (req, res) => {
 app.get("/health", (req, res) => {
   res.status(200).json({ success: true, message: "BAMİR Automation Active" });
 });
+// Sunucuyu dışa aktar
+export default app;
+
+// Sağlık kontrolü (Vercel için doğru endpoint)
+app.get("/api/health", (req, res) => {
+  res.status(200).json({ success: true, message: "BAMİR Automation Active" });
+});
