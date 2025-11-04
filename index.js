@@ -160,3 +160,6 @@ export default app;
 app.get("/api/health", (req, res) => {
   res.status(200).json({ success: true, message: "BAMİR Automation Active" });
 });
+app.get("/health", (req, res) => {
+  res.status(200).json({ success: true, message: "BAMİR Automation Active" });
+});
