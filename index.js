@@ -157,3 +157,6 @@ app.post ("/api/envanter/toplu" , async (istek, çözüm) => {
 });
 
 export default app;
+app.get("/api/health", (req, res) => {
+  res.status(200).json({ success: true, message: "BAMİR Automation Active" });
+});
